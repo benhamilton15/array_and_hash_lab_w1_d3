@@ -15,3 +15,8 @@ def find_item(array, value)
   result = array.include?(value)
   return result
 end
+
+def get_first_key(hash)
+  first_key = hash.keys[0]
+  return first_key
+end
