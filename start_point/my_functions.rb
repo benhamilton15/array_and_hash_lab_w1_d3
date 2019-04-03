@@ -10,3 +10,8 @@ def sum_array(array)
   end
 return total
 end
+
+def find_item(array, value)
+  result = array.include?(value)
+  return result
+end
